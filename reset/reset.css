@@ -347,3 +347,27 @@
   [hidden] {
     display: none;
   }
+
+  /* reset setting by Alex */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  button {
+    text-decoration: none;
+    background-color: unset;
+    border: unset;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: unset;
+  }

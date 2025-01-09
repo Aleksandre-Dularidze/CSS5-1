@@ -1,11 +1,5 @@
 /* universal */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: #07081a;
 }
@@ -21,22 +15,6 @@ body {
   display: flex;
   max-width: 1040px;
   width: 100%;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: unset;
-}
-
-button {
-  text-decoration: none;
-  background-color: unset;
-  border: unset;
-  cursor: pointer;
 }
 
 /* Common classes */
