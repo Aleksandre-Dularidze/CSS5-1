@@ -171,7 +171,7 @@ h2 {
 }
 
 .footer p {
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -180,6 +180,7 @@ h2 {
 footer {
   display: flex;
   padding: 20px 0;
+  width: 100%;
 }
 
 .footer {
@@ -191,4 +192,10 @@ footer {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+}
+
+.border {
+  display: flex;
+  border-top: 1px solid #261C51;
+  justify-content: center;
 }
